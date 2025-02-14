@@ -6,6 +6,6 @@
 
 
   
-let salary = 1000;
+let salary = 100;
 let grade;
-grade = salary >= 1000 ? (grade = "middle") : (grade = "junior");
+grade = salary >= 1000 ?  "middle" :  "junior";
