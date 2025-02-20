@@ -7,12 +7,15 @@ const word = 'hello';
 let vowelsCount = 0;
 let consonantslsCount = 0;
 let vowelsAndConsonantsResult = '';
-for (let i = 0; i <= 4; i++) {
-  if (word[i] === 'e' || word[i] === 'o') vowelsCount++;
+let vovels = 'AaEeIiOoUuYy';
+for (let i = 0; i <= word.length - 1; i++) {
+  const char = word[i]
+  if (vovels.includes(char)) vowelsCount++;
   else {
     consonantslsCount++;
   }
   vowelsAndConsonantsResult = `hello contains ${vowelsCount} vowels and ${consonantslsCount} consonants`;
+
 }
 
 export { vowelsAndConsonantsResult };
