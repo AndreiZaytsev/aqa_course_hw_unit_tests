@@ -32,6 +32,7 @@ for (let i = 0; i < myPizzasT1.length; i++) {
   }
 }
 
+
 if (!resultUnique.length) {
   resultNull = null;
 }
