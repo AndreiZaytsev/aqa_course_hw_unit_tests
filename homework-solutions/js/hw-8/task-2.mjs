@@ -19,7 +19,7 @@ const words = [
 ];
 
 function sortedByVowels(wordsArr) {
-  function countVovels(word) {
+  function countVowels(word) {
     const vovels = 'aeiou';
     let count = 0;
     for (let char of word) {
@@ -29,7 +29,7 @@ function sortedByVowels(wordsArr) {
     }
     return count;
   }
-  return wordsArr.sort((a, b) => countVovels(a) - countVovels(b));
+  return wordsArr.sort((a, b) => countVowels(a) - countVowels(b));
 }
 
 export { sortedByVowels };

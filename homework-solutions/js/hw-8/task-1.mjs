@@ -25,6 +25,6 @@ let find = numbers.find((el, index) => {
 let sort = numbers.sort((a, b) => a - b);
 let reduce = numbers.reduce((sum, num) => (sum += num), 0);
 let some = numbers.some((el) => el > 90);
-let every = numbers.every((el) => el.length > 1);
+let every = numbers.every((el) => el >= 10 && el <= 99 > 1);
 
 export { forEach, map, filter, find, sort, reduce, some, every };
