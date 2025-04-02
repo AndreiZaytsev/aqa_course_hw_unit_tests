@@ -15,5 +15,3 @@ function validatePassword(str: string): boolean {
   const passwordRegex = /^(?=.*[A-Z])(?=.*[a-z])(?=.*\d).{8,}$/;
   return passwordRegex.test(str);
 }
-
-console.log(validatePassword(''));
