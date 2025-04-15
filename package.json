@@ -1,7 +1,7 @@
 {
   "name": "aqa_course_hw_unit_tests",
   "version": "1.0.0",
-  "description": "",
+  "description": "```js\r npm install\r ```",
   "type": "commonjs",
   "scripts": {
     "hw-5-1": "jest tests/js/hw-5/task-1.test.js",
@@ -46,5 +46,9 @@
     "prettier": "3.3.3",
     "ts-jest": "^29.2.5",
     "typescript": "^5.6.3"
+  },
+  "main": "jest.config.js",
+  "directories": {
+    "test": "tests"
   }
 }
